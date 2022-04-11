@@ -36,3 +36,24 @@
     transform: rotate(360deg);
   }
 }
+.container{
+  display: grid;
+grid-template-columns: repeat(4,1fr);
+width:90%;
+margin: auto;
+}
+.container>div{
+  height: 550px;
+  line-height: 18px;
+}
+.btn{
+  display: flex;
+  justify-content: space-between;
+  width:90%;
+  background-color: blue;
+}
+button{
+  background-color: blue;
+  color: white;
+  width:35%;
+}
